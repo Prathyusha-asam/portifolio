@@ -394,7 +394,7 @@
         /* Contact */
         .contact-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
             gap: 2rem;
         }
 
@@ -546,11 +546,11 @@
                 },
                 {
                     title: 'Backend',
-                    items: ['Node.js', 'Express', 'Java', 'Python', 'C#', '.NET', 'Spring Boot']
+                    items: ['Java', 'Python', 'C#', '.NET', 'Spring Boot']
                 },
                 {
                     title: 'Database & Tools',
-                    items: ['MongoDB', 'SQL', 'Oracle', 'Git', 'VS Code', 'RESTful APIs']
+                    items: ['MongoDB', 'SQL', 'firebase', 'Oracle', 'Git', 'VS Code', 'RESTful APIs']
                 },
                 {
                     title: 'Specialization',
@@ -575,10 +575,31 @@
                 },
                 {
                     number: '03',
+                    title: 'Movie Management Application',
+                    description: 'Modern and responsive movie management web application built with Angular for browsing, adding, and exploring recommended movies with a clean UI.',
+                    tech: ['Angular', 'TypeScript', 'HTML', 'CSS'],
+                    link: 'https://movie-application-nu-red.vercel.app/'
+                },
+                {
+                    number: '04',
+                    title: 'React Router Demo with Tic-Tac-Toe',
+                    description: 'Interactive React application demonstrating client-side routing with React Router, including a fully functional Tic-Tac-Toe game, dynamic gallery, and nested routes.',
+                    tech: ['React', 'React Router', 'JavaScript', 'CSS'],
+                    link: 'https://react-interactive-app-five.vercel.app/'
+                },
+                {
+                    number: '05',
                     title: 'React Calculator',
                     description: 'Sleek calculator application featuring an intuitive interface, responsive design, and comprehensive mathematical operations for everyday use.',
                     tech: ['React', 'JavaScript', 'CSS'],
                     link: 'https://698185f4b7471538bcfb08b0--elegant-basbousa-7c4500.netlify.app/'
+                },
+                {
+                    number: '06',
+                    title: 'Cardiovascular Disease Prediction',
+                    description: 'Machine learning project developed at ALTRASOFT Engineering using Random Forest, Decision Tree, Logistic Regression, SVM, and KNN classifiers achieving 85% accuracy for CVD prediction.',
+                    tech: ['Python', 'Machine Learning', 'Random Forest', 'SVM', 'KNN'],
+                    link: '#'
                 }
             ];
 
@@ -586,7 +607,7 @@
                 <>
                     <nav>
                         <div className="nav-container">
-                            <div className="logo">&lt;PA /&gt;</div>
+                            <div className="logo">&lt; Prathyusha Asam /&gt;</div>
                             <ul className="nav-links">
                                 <li><a href="#about" onClick={(e) => { e.preventDefault(); scrollToSection('about'); }}>About</a></li>
                                 <li><a href="#skills" onClick={(e) => { e.preventDefault(); scrollToSection('skills'); }}>Skills</a></li>
@@ -718,8 +739,15 @@
                             <div className="contact-item fade-in" style={{animationDelay: '0.2s'}}>
                                 <div className="contact-icon">💼</div>
                                 <h3>LinkedIn</h3>
-                                <a href="https://linkedin.com/in/prathyusha-asam" target="_blank" rel="noopener noreferrer">
-                                    Connect on LinkedIn
+                                <a href="https://www.linkedin.com/in/prathyusha-asam-a3675322b/" target="_blank" rel="noopener noreferrer">
+                                    Prathyusha Asam
+                                </a>
+                            </div>
+                            <div className="contact-item fade-in" style={{animationDelay: '0.3s'}}>
+                                <div className="contact-icon">💻</div>
+                                <h3>GitHub</h3>
+                                <a href="https://github.com/Prathyusha-asam" target="_blank" rel="noopener noreferrer">
+                                    Prathyusha-asam
                                 </a>
                             </div>
                         </div>
